@@ -1,4 +1,4 @@
-FROM mdillon/postgis:latest
+FROM mdillon/postgis:9.6
 
 ADD https://github.com/3dcitydb/3dcitydb/archive/v3.3.0.tar.gz /home/3dcitydb-3.3.0
 
