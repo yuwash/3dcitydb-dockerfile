@@ -1,4 +1,4 @@
-FROM mdillon/postgis:9.6
+FROM mdillon/postgis:9.6-alpine
 
 ADD https://github.com/3dcitydb/3dcitydb/archive/v3.3.0.tar.gz /home/3dcitydb-3.3.0
 
